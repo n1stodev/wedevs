@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--==================== JQUERY ====================-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <!--==================== FAVICON ====================-->
+        <link rel="shortcut icon" href="./assets/img/logo.jpg" type="image/x-icon">
+        <!--==================== UNICONS ====================-->
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v3.0.6/css/line.css">
+        <!--==================== SWIPER CSS ====================-->
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+        <!--==================== CSS ====================-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <title>weDevs</title>
+    </head>
+    <body>
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="https://wedews-uz.netlify.app" class="nav_logo">
+                    wD | weDevs
+                </a>
+                <div class="nav_menu" id="nav-menu">
+                    <ul class="nav_list">
+                        <li class="nav-item">
+                            <a href="#home" class="nav_link active_link">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#about" class="nav_link">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#services" class="nav_link">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#portfolio" class="nav_link">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#contact" class="nav_link">Contact Us</a>
+                        </li>
+                    </ul>
+
+                    <div class="nav_close" id="nav-close">
+                        <i class="uil uil-times nav_close" id="nav-close"></i>
+                    </div>
+                </div>
+
+                <div class="nav_btns">
+                    <!--===== THEME CHANGE BUTTON =====-->
+                    <i class="uil uil-moon change_theme" id="theme-button"></i>
+                    <div class="nav_toogle" id="nav-toggle">
+                        <i class="uil uil-bars"></i>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <!--==================== MAIN ====================-->
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home section" id="home">
+                <div class="home_container container grid">
+
+                    <div class="home_data">
+                        <h1 class="home_title">Hi, We're weDevs Team</h1>
+                        <h3 class="home_subtitle">FullStack developers Team</h3>
+                        <p class="home_description">
+                            High level experience in web design,front-end and backend development, producing quality work.
+                        </p>
+                        <a href="#contact" class="button button--flex">
+                            Contact Us <i class="uil uil-message button__icon"></i>
+                        </a>
+                        <div class="home_scroll">
+                            <a href="#about" class="home_scroll-button button--flex"></a>
+                            <i class="uil uil-mouse-alt home_scroll-mouse"></i>
+                            <span class="home_scroll-name">Scroll down</span>
+                            <i class="uil uil-arrow-down home_scroll-arrow"></i>
+                        </div>
+                        <div class="home_social">
+                            <span class="home_social-follow">Follow Us</span>
+                            <div class="home_social-links">
+                                <a href="https://www.instagram.com" target="_blank" class="home_social-icon">
+                                    <i class="uil uil-instagram"></i>
+                                </a>
+                                <a href="https://www.facebook.com" target="_blank" class="home_social-icon">
+                                    <i class="uil uil-facebook"></i>
+                                </a>
+                                <a href="https://t.me/weDevsTeam" target="_blank" class="home_social-icon">
+                                    <i class="uil uil-telegram"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="home_scroll_social">
+                            <div class="home_scroll1">
+                                <a href="#about" class="home_scroll-button button--flex"></a>
+                                <i class="uil uil-mouse-alt home_scroll-mouse"></i>
+                                <span class="home_scroll-name">Scroll down</span>
+                                <i class="uil uil-arrow-down home_scroll-arrow"></i>
+                            </div>
+                            <div class="home_social1">
+                                <div class="home_social-link">
+                                    <a href="https://www.instagram.com" target="_blank" class="home_social-icon">
+                                        <i class="uil uil-instagram"></i>
+                                    </a>
+                                    <a href="https://www.facebook.com" target="_blank" class="home_social-icon">
+                                        <i class="uil uil-facebook"></i>
+                                    </a>
+                                    <a href="https://t.me/weDevsTeam" target="_blank" class="home_social-icon">
+                                        <i class="uil uil-telegram"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== ABOUT ====================-->
+            <section class="about section" id="about">
+               <h2 class="section__title">About Us</h2>
+               <span class="section__subtitle">Our introduction</span>
+                <div class="members">
+                    <div class="member">
+                        <div class="member_left">
+                            <img src="./assets/img/download.png">
+                        </div>
+                        <div class="member_right">
+                            <h2 class="member_name">Nurillo Tojiakhmedov</h2>
+                            <p class="member_job">FrontEnd Developer</p>
+                            <div class="member_link">
+                                <i class="uil uil-telegram"></i><span>@n1sto_uzb</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="member">
+                        <div class="member_left">
+                            <img src="./assets/img/download.png">
+                        </div>
+                        <div class="member_right">
+                            <h2 class="member_name">Qobiljon Tukhtamatov</h2>
+                            <p class="member_job">FrontEnd Developer</p>
+                            <div class="member_link">
+                                <i class="uil uil-telegram"></i><span>@dasturchi_bolaa</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="member">
+                        <div class="member_left">
+                            <img src="./assets/img/download.png">
+                        </div>
+                        <div class="member_right">
+                            <h2 class="member_name">Muhammadali Abdukhalilov</h2>
+                            <p class="member_job">FrontEnd Developer</p>
+                            <div class="member_link">
+                                <i class="uil uil-telegram"></i><span>@coderali_1</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--==================== SERVICES ====================-->
+            <section class="services section" id="services">
+              <h2 class="section__title">Services</h2> 
+              <span class="section__subtitle">What is offer</span> 
+
+              <div class="services_container container grid">
+                <!--============== SERVICES 1 =============-->
+                <div class="services_content">
+                    <div>
+                        <i class="uil uil-web-grid services_icon"></i>
+                        <h3 class="services_title">Ui/Ux <br> Design</h3>
+                    </div>
+                    <span class="button button--flex button--small button--link services_button">
+                        View More
+                        <i class="uil uil-arrow-right button_icon"></i>
+                    </span>
+
+                    <div class="services_modal ">
+                        <div class="services_modal-content">
+                            <h4 class="services_modal-title">UI/UX <br> Designer</h4>
+                            <i class="uil uil-times services_modal-close"></i>
+
+                            <ul class="services_modal-services grid">
+                                <li class="services_modal-service">
+                                    <i class="uil uil-check-circle services_modal-icon"></i>
+                                    <p>We develop the user interface</p>
+                                </li>
+                                <li class="services_modal-service">
+                                    <i class="uil uil-check-circle services_modal-icon"></i>
+                                    <p>Web page development</p>
+                                </li>
+                                <li class="services_modal-service">
+                                    <i class="uil uil-check-circle services_modal-icon"></i>
+                                    <p>We create ux element interactions</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!--============== SERVICES 2 =============-->
+                <div class="services_content">
+                    <div>
+                        <i class="uil uil-web-grid services_icon"></i>
+                        <h3 class="services_title">Frontend <br> Development</h3>
+                    </div>
+                    <span class="button button--flex button--small button--link services_button">
+                        View More
+                        <i class="uil uil-arrow-right button_icon"></i>
+                    </span>
+
+                    <div class="services_modal">
+                        <div class="services_modal-content">
+                            <h4 class="services_modal-title">Frontend <br> Development</h4>
+                            <i class="uil uil-times services_modal-close"></i>
+
+                            <ul class="services_modal-services grid">
+                                <li class="services_modal-service">
+                                    <i class="uil uil-check-circle services_modal-icon"></i>
+                                    <p>We develop the user interface</p>
+                                </li>
+                                <li class="services_modal-service">
+                                    <i class="uil uil-check-circle services_modal-icon"></i>
+                                    <p>Web page development</p>
+                                </li>
+                                <li class="services_modal-service">
+                                    <i class="uil uil-check-circle services_modal-icon"></i>
+                                    <p>We create ux element interactions</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!--============== SERVICES 3 =============-->
+                <div class="services_content">
+                    <div>
+                        <i class="uil uil-web-grid services_icon"></i>
+                        <h3 class="services_title">Backend <br> Development</h3>
+                    </div>
+                    <span class="button button--flex button--small button--link services_button">
+                        View More
+                        <i class="uil uil-arrow-right button_icon"></i>
+                    </span>
+
+                    <div class="services_modal">
+                        <div class="services_modal-content">
+                            <h4 class="services_modal-title">Backend <br> Development</h4>
+                            <i class="uil uil-times services_modal-close"></i>
+
+                            <ul class="services_modal-services grid">
+                                <li class="services_modal-service">
+                                    <i class="uil uil-check-circle services_modal-icon"></i>
+                                    <p>We develop the user interface</p>
+                                </li>
+                                <li class="services_modal-service">
+                                    <i class="uil uil-check-circle services_modal-icon"></i>
+                                    <p>Web page development</p>
+                                </li>
+                                <li class="services_modal-service">
+                                    <i class="uil uil-check-circle services_modal-icon"></i>
+                                    <p>We create ux element interactions</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+              </div>
+            </section>
+
+            <!--==================== PORTFOLIO ====================-->
+            <section class="portfolio section" id="portfolio">
+              <h2 class="section__title">Portfolio</h2>  
+              <span class="section__subtitle">Most recent work</span>
+
+              <div class="portfolio_container">
+                <div class="swiper-wrapper portfolio_wrapper">
+                    <!--============ PORTFOLIO 1 ==============-->
+                    <div class="portfolio_content">
+                        <img src="assets/img/portfolio1.jpeg" alt="" class="portfolio_img">
+
+                        <div class="portfolio_data">
+                            <h3 class="portfolio_title">Modern Website</h3>
+                            <p class="portfolio_description">
+                                Website adaptable to all devices,with ui description
+                                and animated interactions.
+                            </p>
+                            <a href="#" class="button button--flex button--small portfolio_button">
+                                Demo 
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <!--============ PORTFOLIO 2 ==============-->
+                    <div class="portfolio_content">
+                        <img src="assets/img/portfolio2.jpeg" alt="" class="portfolio_img">
+
+                        <div class="portfolio_data">
+                            <h3 class="portfolio_title">POS App</h3>
+                            <p class="portfolio_description">
+                                POS App description
+                            </p>
+                            <a href="#" class="button button--flex button--small portfolio_button">
+                                Demo 
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <!--============ PORTFOLIO 3 ==============-->
+                    <div class="portfolio_content">
+                        <img src="assets/img/portfolio3.jpeg" alt="" class="portfolio_img">
+
+                        <div class="portfolio_data">
+                            <h3 class="portfolio_title">Online Store</h3>
+                            <p class="portfolio_description">
+                                Website adaptable to all devices,with ui description
+                                and animated interactions.
+                            </p>
+                            <a href="#" class="button button--flex button--small portfolio_button">
+                                Demo 
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== PROJECT IN MIND ====================-->
+            <section class="project section">
+              <div class="project_bg">
+                <div class="project_container container grid">
+                    <div class="project_data">
+                        <h2 class="project_title">You have new project</h2>
+                        <p class="project_description">Contact me now and get a 50% discounted</p>
+                        <a href="#contact" class="button button--flex button--white">
+                            Contact Me 
+                            <i class="uil uil-message project_icon button_icon"></i>
+                        </a>
+                    </div>
+                </div>
+              </div>
+            </section>
+
+            <!--==================== TESTIMONIAL ====================-->
+            <section class="testimonial section">
+              <h2 class="section__title">Testimonial</h2>  
+              <span class="section__subtitle">Our client saying</span>
+
+              <div class="testimonial_container container swiper-container">
+                <div class="swiper-wrapper">
+                    <!--========= TESTIMONIAL 1 ==========-->
+                    <div class="testimonial_content swiper-slide">
+                        <div class="testimonial_data">
+                            <div class="testimonial_header">
+                                <img src="assets/img/download.png" alt="" class="testimonial_img">
+
+                                <div>
+                                    <h3 class="testimonial_name">Jay Smith</h3>
+                                    <span class="testimonial_client">Client</span>
+                                </div>
+                            </div>
+
+                            <div>
+                                <i class="uil uil-star testimonial_icon-star"></i>
+                                <i class="uil uil-star testimonial_icon-star"></i>
+                                <i class="uil uil-star testimonial_icon-star"></i>
+                                <i class="uil uil-star testimonial_icon-star"></i>
+                                <i class="uil uil-star testimonial_icon-star"></i>
+                            </div>
+                        </div>
+                        <p class="testimonial_description">
+                            I get a good impression,I carry out my project with all the possible
+                            quality and attention and support 24 hours a day.
+                        </p>
+                    </div>
+                    <!--========= TESTIMONIAL 2 ==========-->
+                    <div class="testimonial_content swiper-slide">
+                        <div class="testimonial_data">
+                            <div class="testimonial_header">
+                                <img src="assets/img/download.png" alt="" class="testimonial_img">
+
+                                <div>
+                                    <h3 class="testimonial_name">John Smith</h3>
+                                    <span class="testimonial_client">Client</span>
+                                </div>
+                            </div>
+                            
+                            <div>
+                                <i class="uil uil-star testimonial_icon-star"></i>
+                                <i class="uil uil-star testimonial_icon-star"></i>
+                                <i class="uil uil-star testimonial_icon-star"></i>
+                                <i class="uil uil-star testimonial_icon-star"></i>
+                                <i class="uil uil-star testimonial_icon-star"></i>
+                            </div>
+                        </div>
+                        <p class="testimonial_description">
+                            I get a good impression,I carry out my project with all the possible
+                            quality and attention and support 24 hours a day.
+                        </p>
+                    </div>
+                    <!--========= TESTIMONIAL 3 ==========-->
+                    <div class="testimonial_content swiper-slide">
+                        <div class="testimonial_data">
+                            <div class="testimonial_header">
+                                <img src="assets/img/download.png" alt="" class="testimonial_img">
+
+                                <div>
+                                    <h3 class="testimonial_name">Mike Smith</h3>
+                                    <span class="testimonial_client">Client</span>
+                                </div>
+                            </div>
+                            
+                            <div>
+                                <i class="uil uil-star testimonial_icon-star"></i>
+                                <i class="uil uil-star testimonial_icon-star"></i>
+                                <i class="uil uil-star testimonial_icon-star"></i>
+                                <i class="uil uil-star testimonial_icon-star"></i>
+                                <i class="uil uil-star testimonial_icon-star"></i>
+                            </div>
+                        </div>
+                        <p class="testimonial_description">
+                            I get a good impression,I carry out my project with all the possible
+                            quality and attention and support 24 hours a day.
+                        </p>
+                    </div>
+                    
+                </div>
+                <!--Add Pagination-->
+                <div class="swiper-pagination swiper-pagination-testimonial"></div>
+              </div>
+            </section>
+
+            <!--==================== CONTACT US ====================-->
+            <section class="contact section" id="contact">
+              <h2 class="section__title">Contact Us</h2>
+              <span class="section__subtitle">Get in touch</span>
+
+              <div class="contact_container container grid">
+                <div>
+                    <div class="contact_information">
+                        <i class="uil uil-phone contact_icon"></i>
+
+                        <div>
+                            <h3 class="contact_title">Call Us</h3>
+                            <span class="contact_subtitle">+998 99-999-99-99</span>
+                        </div>
+                    </div>
+                    <div class="contact_information">
+                        <i class="uil uil-envelope contact_icon"></i>
+
+                        <div>
+                            <h3 class="contact_title">Email</h3>
+                            <span class="contact_subtitle">ntojiaxmedov008@gmail.com</span>
+                        </div>
+                    </div>
+                    <div class="contact_information">
+                        <i class="uil uil-map-marker contact_icon"></i>
+
+                        <div>
+                            <h3 class="contact_title">Location</h3>
+                            <span class="contact_subtitle">Fergana Valley, Uzbekistan</span>
+                        </div>
+                    </div>
+                    <div class="contact_information">
+                        <i class="uil uil-telegram contact_icon"></i>
+
+                        <div>
+                            <a href="https://t.me/wedevsteam"><h3 class="contact_title">Telegram</h3>
+                            <span class="contact_subtitle">@weDevsTeam</span></a>
+                        </div>
+                    </div>
+                </div>
+            <div class="form">
+                <form action="" class="contact_form grid" onsubmit=" return sendtelegram()">
+                    <div class="contact_inputs grid">
+                        <div class="contact_content">
+                            <label for="name" class="contact_label">Name</label>
+                            <input type="text" name="name" id="name" required autocomplete="off" class="contact_input">
+                        </div>
+                        <div class="contact_content">
+                            <label for="email" class="contact_label">Telegram Username</label>
+                            <input type="text" name="email" id="email" required autocomplete="off" class="contact_input">
+                        </div>
+                    </div>
+                    <div class="contact_content">
+                        <label for="" class="contact_label">Project description</label>
+                        <textarea name="message" id="message" class="textarea contact_input" required></textarea>
+                    </div>
+                        <input type="submit" value="Yuborish" id="btn" class="button button--flex">
+                </form>
+            </div>
+        </div>
+            </section>
+        </main>
+
+        <!--==================== FOOTER ====================-->
+        <footer class="footer">
+          <div class="footer_bg">
+            <div class="footer_container container grid">
+                <div>
+                    <h1 class="footer_title">weDevs</h1>
+                    <span class="footer_subtitle">FullStack Team</span>
+                    <p class="footer_subtitle">
+                        
+                    </p>
+                </div>
+                <ul class="footer_links">
+                    <li>
+                        <a href="#services" class="footer_link">Services</a>
+                    </li>
+                    <li>
+                        <a href="#portfolio" class="footer_link">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="#contact" class="footer_link">Contact Me</a>
+                    </li>
+                </ul>
+                <div class="footer_socails">
+                    <a href="https://www.facebook.com" target="_blank" class="footer_social">
+                        <i class="uil uil-facebook-f"></i>
+                    </a>
+                    <a href="https://www.instagram.com" target="_blank" class="footer_social">
+                        <i class="uil uil-instagram"></i>
+                    </a>
+                    <a href="https://t.me/wedevsteam" class="footer_social">
+                        <i class="uil uil-telegram"></i>
+                    </a>
+                </div>
+            </div>
+          </div>
+        </footer>
+        
+        <!--==================== SCROLL TOP ====================-->
+        <a href="#" class="scrollup" id="scroll-up">
+          <i class="uil uil-arrow-up scrollup_icon"></i>
+        </a>
+
+        <!--==================== SWIPER JS ====================-->
+        <script src="assets/js/swiper-bundle.min.js"></script>
+
+        <!--==================== MAIN JS ====================-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
